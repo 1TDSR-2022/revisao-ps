@@ -1,0 +1,28 @@
+*{
+    font-size: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.cabecalho{
+    display: flex;
+    background-color: #050305;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    column-gap: normal;
+    gap: 1rem;
+}
+.menu > a{
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 2.7rem 0;
+}
+.menu > a:hover{
+    background-color: brown;
+}
+.active{
+    background-color: #0000ff;
+}
