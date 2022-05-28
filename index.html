@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
     <title>REVISÃO</title>
 </head>
 <body>
     
     <div class="container">
+
         <header class="cabecalho">
             <h1 class="logo">REVISÃO</h1>
             <nav class="menu">
@@ -17,21 +19,24 @@
                 <a href="#">Exemplo-2</a>
                 <a href="#">Exemplo-3</a>
             </nav>
+            
             <form class="cadastro" action="index.html" method="get">
                 <fieldset>
                     <legend>NEWSLETTER</legend>
                     <div>
-                        <input type="text" name="nmCli" id="nmCliId" placeholder="Nome">
+                        <input type="text" name="nmCli" id="nmCliId" placeholder="Nome" required>
                     </div>
                     <div>
                         <input type="email" name="emailCli" id="emailCliId" placeholder="Email">
                     </div>
                     <div>
-                        <input type="button" id="bntEnviar" value="Enviar">
+                        <input type="button" id="btnEnviar" value="ENVIAR" required>
                     </div>
                 </fieldset>
             </form>
+
         </header>
     </div>
+
 </body>
 </html>
